@@ -1,0 +1,105 @@
+.home h1{
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+.card-grid {
+    font-family: 'Lato', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+  }
+
+.post{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0.2rem;
+    padding-bottom: 1.5rem;
+    border: 2px solid #777;
+    border-radius: 10px;
+}
+
+.post h2{
+    
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.post p {
+    
+    margin-bottom: 1rem;
+}
+
+.post h2::first-letter{
+    text-transform: uppercase;
+}
+
+.btn{
+    align-self: center;
+    background-color: #fff;
+    color: #0e1217;
+    border: 1px solid #fff;
+    opacity: 1;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    max-width: 100px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: #fff;
+    background-color: #0e1217;
+}
+ul{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+li {
+    display: flex;
+    align-items: center;
+}
+.imagem {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #777;
+}
+
+.imagem img {
+    border: 2px solid #777;
+    border-radius: 4px;
+    width: 300px; /* Tamanho fixo da largura */
+    height: 200px; /* Tamanho fixo da altura */
+    object-fit: cover; /* Redimensiona a imagem mantendo a proporção */
+}
+.busca{
+    display:flex;
+    
+    justify-content: space-evenly;
+    
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.inp  {
+    width: 200px;
+    padding: 1px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    margin-bottom: 1rem;
+}
+  
+.inp:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+}
+.labelBuscar {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }

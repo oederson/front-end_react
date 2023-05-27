@@ -1,0 +1,44 @@
+.new-comida h2{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+form {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.form-control label{
+    margin-bottom: 0.5rem;
+}
+
+.form-control input{
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #011733;
+    color: white;
+}
+.form-control textarea{
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+}
+
+  
+input:invalid + span::after {
+    content: "✖";
+    padding-left: 5px;
+}
+  
+input:valid + span::after {
+    content: "✓";
+    padding-left: 5px;
+}
